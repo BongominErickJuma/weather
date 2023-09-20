@@ -1,0 +1,29 @@
+.other-info,
+.weather-details{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.sup{
+    font-weight: bolder;
+}
+.icon{
+    width: 60px;
+}
+.desc{
+    font-size: 1.5rem;
+    color: mediumseagreen;
+    margin: 0;
+}
+
+.info{
+    height: 5rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2em;
+    box-shadow: 0 5px 7px -1px mediumseagreen;
+    padding: 0 .25em;
+}

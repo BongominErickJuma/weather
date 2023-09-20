@@ -1,0 +1,60 @@
+.weather-body{
+    margin: 0 auto;
+    padding: 1em 2em;
+    max-width: 31.25rem;
+    position: relative;
+}
+
+.widget{
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    height: 50%;
+    border-radius: 6px;
+    box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
+    margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.times:hover{
+    color: mediumseagreen;
+}
+button:focus,
+button{
+    cursor: pointer;
+    border: none;
+    background-color: mediumseagreen;
+    color: #fff;
+    border-radius: 2em;
+    margin-bottom: 0;
+}
+
+.top{
+    position: relative;
+}
+
+.times{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    cursor: pointer;
+}
+
+.top .title{
+    max-width: 90%;
+}
+.material-icons,
+.title{
+    margin: 0;
+}
+
+.material-icons{
+    color: mediumseagreen;
+    margin-top: 1em;
+}
+.today{
+    color: mediumseagreen;
+    margin-bottom: 0;
+}
