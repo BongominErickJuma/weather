@@ -9,6 +9,7 @@ const Search = ({ onSearchChange }) => {
 const handleOnChange = searchInput => {
   setSearch(searchInput)
   onSearchChange(searchInput)
+  setSearch(null)
 }
 
 
