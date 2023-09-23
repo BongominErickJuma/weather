@@ -49,6 +49,7 @@ const Weather = () => {
     localStorage.setItem("lat", JSON.stringify(lat));
     localStorage.setItem("lon", JSON.stringify(lon));
     localStorage.setItem("place", JSON.stringify(place));
+    handleHideWidget()
   };
 
   const handleSearchChange = (searchInput) => {
