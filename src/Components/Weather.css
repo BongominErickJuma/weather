@@ -28,7 +28,8 @@ button{
     background-color: mediumseagreen;
     color: #fff;
     border-radius: 2em;
-    margin-bottom: 0;
+    margin: .5em 0 0;
+    padding: .1em .5em;
 }
 
 .top{
